@@ -6,7 +6,7 @@ public class Authentication extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Authentication.class.getName());
 
-    private CardLayout layout;
+    private final CardLayout layout;
     
     public Authentication() {
         initComponents();
